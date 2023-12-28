@@ -9,6 +9,9 @@
         flex-wrap: wrap;
 
         .card-ma, .card-p{
+            border: 2px solid pink;
+            border-radius: 5%;
+            overflow: hidden;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -19,7 +22,7 @@
 
             & spa{
                 font-size: 1rem;
-                padding: 1rem;
+                padding: 1.5rem 1rem;
             }
         }
     }

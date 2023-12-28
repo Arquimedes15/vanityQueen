@@ -1,6 +1,6 @@
 const manicura = ``;
 
-const pagURL = ["manicura","pedicura","otrs-serv","descuentos"];
+const pagURL = ["manicura","pedicura","otrs-serv","descuentos", "cat-user-what"];
 
 let galCr = false
 
