@@ -28,3 +28,53 @@
     }
 }
 
+/*
+ Update 31/12/2023 01:05
+*/
+
+.cards-descuento{
+    position: relative;
+
+    & img:nth-child(1){
+        z-index: 1;
+        transform: rotateY(360deg);
+    }
+
+    & img:nth-child(2){  
+        position: absolute;
+        left: 0;
+        z-index: 2;
+    }
+}
+.cards-descuento:hover{
+
+    & img:nth-child(1){
+        animation: card_rotate2 4s;
+        z-index: 2;
+    }
+
+    & img:nth-child(2){
+        animation: card_rotate 4s;
+        z-index: 1;
+    }
+}
+
+@keyframes card_rotate {
+    0%{
+        transform: rotateY(0deg);
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+@keyframes card_rotate2 {
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
