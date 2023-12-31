@@ -104,6 +104,11 @@ const html_render = [`
     <div class="sector1-p"><h3>NADA AUN</h3></div>
 `,
 `
-    <div class="sector1-p"><h3>NADA AUN...</h3></div>
+    <div class="sector1-p"><h3>Descuentos especial</h3>
+        <div class="cards-descuento">
+            <img class="card-img" src="img/card_1.jpeg">
+            <img class="card-img" src="img/card_2.jpeg">
+        </div>
+    </div>
 `
 ]
