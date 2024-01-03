@@ -49,12 +49,12 @@
 .cards-descuento:hover{
 
     & img:nth-child(1){
-        animation: card_rotate2 4s;
+        animation: card_rotate2 4s linear;
         z-index: 2;
     }
 
     & img:nth-child(2){
-        animation: card_rotate 4s;
+        animation: card_rotate 4s linear;
         z-index: 1;
     }
 }

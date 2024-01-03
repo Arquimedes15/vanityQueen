@@ -105,7 +105,7 @@ header {
                 padding: 1rem 0;
             }
 
-            & button {
+            & a {
                 padding: 1rem;
                 border-radius: 5px;
                 border: none;
@@ -113,6 +113,7 @@ header {
                 color: #fff;
                 font-size: 2rem;
                 margin: 2rem 0;
+                text-decoration: none;
                 cursor: pointer;
             }
         }
@@ -485,6 +486,23 @@ main {
     .content-img:hover {
         .des {
             top: 50%;
+        }
+    }
+}
+.ico-whasap {
+    position: fixed;
+    z-index: 10;
+    right: 10px;
+    bottom: 10px;
+
+    & a {
+        cursor: pointer;
+
+        & img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
         }
     }
 }

@@ -112,3 +112,23 @@ const html_render = [`
     </div>
 `
 ]
+
+
+
+const redict_wahp = document.querySelectorAll("#redict_wahp");
+if(window.innerWidth < 1000){
+    recorerEa("https://wa.me/51937396049", redict_wahp)
+    console.log("android")
+}else{
+    recorerEa("https://web.whatsapp.com/send?phone=51937396049", redict_wahp)
+    console.log("windows")
+}
+
+function recorerEa(url, arrays){
+    arrays.forEach(elem => {
+        elem.href = url
+    });
+}
+
+
+//Podra no tener la mejor sangria pero es compatible con cualquier otro proyectos esta hecho por sectores y modulos
